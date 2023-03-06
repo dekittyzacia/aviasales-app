@@ -14,7 +14,7 @@ const TicketItem = () => {
       <ul className={style['ticket-item__info']}>
         <li className={style['ticket-item__info-item']}>
           <p>
-            <span>SITY - SITY</span>
+            <span>СITY - CITY</span>
             <span>10:45 - 08:00</span>
           </p>
           <p>
@@ -23,12 +23,12 @@ const TicketItem = () => {
           </p>
           <p>
             <span>2 пересадки</span>
-            <span>SITY, SITY</span>
+            <span>CITY, CITY</span>
           </p>
         </li>
         <li className={style['ticket-item__info-item']}>
           <p>
-            <span>SITY - SITY</span>
+            <span>CITY - CITY</span>
             <span>11:20 - 00:50</span>
           </p>
           <p>
@@ -37,7 +37,7 @@ const TicketItem = () => {
           </p>
           <p>
             <span>1 пересадка</span>
-            <span>SITY</span>
+            <span>CITY</span>
           </p>
         </li>
       </ul>
