@@ -15,6 +15,7 @@
   &__header {
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
     align-items: center;
   }
 
@@ -38,6 +39,8 @@
 
   &__info-item p {
     display: flex;
+    max-width: 113px;
+    min-width: 113px;
     flex-direction: column;
 
     & span:first-child {
@@ -61,7 +64,14 @@
     }
 
     &__header {
-      padding: 5px 20px 0px;
+      padding: 5px 20px 0px 15px;
+    }
+
+    &__info-item p {
+      display: flex;
+      max-width: 160px;
+      min-width: 160px;
+      flex-direction: column;
     }
   }
 }
