@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { selectFilter } from '../../store/filterSlice'
 import { filterItems } from '../../constants'
 
-import style from './filters.module.scss'
+import style from './Filters.module.scss'
 
 const Filters = () => {
   const filterState = useSelector((state) => state.filter)

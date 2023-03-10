@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Flight from './ticket-item-info'
-import style from './ticket-item.module.scss'
+import FlightView from './FlightView'
+import style from './TicketItem.module.scss'
 
 const TicketItem = (ticketData) => {
   const { price, carrier, segments } = ticketData
@@ -15,8 +15,8 @@ const TicketItem = (ticketData) => {
         <img src={ticketLogo} />
       </div>
       <ul className={style['ticket-item__info']}>
-        <Flight info={to} />
-        <Flight info={back} />
+        <FlightView info={to} />
+        <FlightView info={back} />
       </ul>
     </div>
   )

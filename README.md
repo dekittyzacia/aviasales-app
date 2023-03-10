@@ -1,3 +1,3 @@
-### VERCEL: here will be the link soon
+### VERCEL: https://aviasales-app-beta-blush.vercel.app/
 
 ### Created via Create-React-App
