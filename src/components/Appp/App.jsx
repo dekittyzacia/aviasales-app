@@ -3,9 +3,9 @@ import React from 'react'
 import TicketList from '../TicketList/TicketList'
 import HeaderLogo from '../HeaderLogo/HeaderLogo'
 import FiltersTabBar from '../FiltersTabBar/FiltersTab-Bar'
-import Filters from '../Filters/Filters'
+import Filters from '../Filterss/Filters'
 
-import style from './App.module.scss'
+import style from './Appp.module.scss'
 
 const App = () => {
   return (
